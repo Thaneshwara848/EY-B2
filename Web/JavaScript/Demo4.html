@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+            fname=document.f1.fname.value;
+            lname=document.f1.lname.value;
+            fullname= fname +" "+ lname ;
+            // alert("HI "+fullname );
+        }
+    </script>
+</head>
+<body>
+        <div style="text-align: center;">
+
+            <form  name="f1">
+                First Name  :<input type="text" id="fname"> <br>
+                Last Name  :<input type="text" id="lname"><br>
+
+                <input type="submit" value="CLICK" onclick="abc()">
+            </form>        
+        </div>
+
+</body>
+</html>

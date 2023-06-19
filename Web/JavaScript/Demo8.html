@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+            a= parseInt( document.f1.a.value);
+            b= parseInt( document.f1.b.value ) ;
+            sum= a + b ;
+            document.f1.result.value=sum
+            // alert("HI "+fullname );
+        }
+    </script>
+</head>
+<body>
+        <div style="text-align: center;">
+
+            <form  name="f1">
+               A value:<input type="text" id="a"> <br>
+                B Value  :<input type="text" id="b"><br>
+                Result :<input type="text" id="result"><br><br>
+
+                <input type="button" value="ADD" onclick="abc()">
+            </form>        
+        </div>
+</body>
+</html>

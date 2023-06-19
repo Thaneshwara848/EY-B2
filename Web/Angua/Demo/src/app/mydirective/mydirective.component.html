@@ -1,0 +1,68 @@
+<h1>Hi Directive Demo </h1>
+<!-- <h5>Structurl Directive (*ngIf, *ngFor, Switch )</h5>
+<h5>Attrubute Directive(ngStyle, ngClass ) </h5> -->
+<!-- <div *ngIf="false">
+        <h1> helooooooooo</h1>
+</div>
+
+<div *ngIf="abc">
+        <h1> eee</h1>
+</div>
+
+<hr>
+<ul *ngFor="let emp of emps">
+        <li>{{emp}}</li>
+</ul>
+<hr>
+<input type="text" #a>
+<input type="submit" (click)="addfruit(a.value)">
+
+<ul *ngFor="let f of fruits">
+        {{f}}
+</ul>
+<hr>
+
+
+<ul [ngSwitch]="superhero">
+        <li *ngSwitchCase="'Groot'">Groot</li>
+        <li *ngSwitchCase="'Ironman'">Ironman</li>
+        <li *ngSwitchCase="'Hulk'">Hulk</li>
+        <li *ngSwitchCase="'Thor'">Thor</li>
+        <li *ngSwitchCase="'Spiderman'">Spiderman</li>
+        <li *ngSwitchDefault>Batman</li>
+</ul>
+      
+<hr>
+<ul *ngFor="let employees of myemps">
+
+        <li>{{employees.id}}----{{employees.name}}</li>
+</ul> -->
+
+<div [ngClass]="{'bgclr':true,'bdr':true}">
+        The [ngSwitch] directive will return `Spiderman` as a result from the 
+        multiple possibilities because we defined `Spiderman` as the superhero’s 
+        value.
+        The [ngSwitch] directive will return `Spiderman` as a result from the 
+        multiple possibilities because we defined `Spiderman` as the superhero’s 
+        value.
+</div>
+
+<div [ngClass]="{'bgclr':true,'bdr':false}">
+        The [ngSwitch] directive will return `Spiderman` as a result from the 
+        multiple possibilities because we defined `Spiderman` as the superhero’s 
+        value.
+        The [ngSwitch] directive will return `Spiderman` as a result from the 
+        multiple possibilities because we defined `Spiderman` as the superhero’s 
+        value.
+
+</div>
+
+<div [ngClass]="{'bgclr':false,'bdr':true}">
+        The [ngSwitch] directive will return `Spiderman` as a result from the 
+        multiple possibilities because we defined `Spiderman` as the superhero’s 
+        value.
+        The [ngSwitch] directive will return `Spiderman` as a result from the 
+        multiple possibilities because we defined `Spiderman` as the superhero’s 
+        value.
+
+</div>

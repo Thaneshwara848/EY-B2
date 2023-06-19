@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+            fname=document.f1.fname.value;
+            lname=document.f1.lname.value;
+            fullname= fname +" "+ lname ;
+            document.f1.full.value=fullname;
+        }
+        function xyz(){
+            document.getElementById('fname').style.backgroundColor="lightblue";
+        }
+        function mybgclr(value){
+         
+            document.getElementById('bodytag').style.backgroundColor=value;
+        }
+    </script>
+</head>
+<body id="bodytag">
+    <marquee onmouseover="stop()" onmouseout="start()" on><h1>Hi Welcoem to java Script </h1></marquee>
+        <div style="text-align: center;">
+            <form  name="f1">
+                First Name  :<input type="text" id="fname" onblur="xyz()"> <br>
+                Last Name  :<input type="text" id="lname"><br>
+                FULL NAME :<input type="text" id="full" onfocus="abc()"><br><br>
+                <input type="button" value="CLICK" onclick="abc()">
+                <input type="button" value="Doubl CLICK" ondblclick="abc()">
+            </form> 
+            ===========<br>
+            <select onchange="mybgclr(value)">
+                <option value="">COLOR</option>
+                <option value="red">RED</option>
+                <option value="blue">BLUE</option>
+                <option value="pink">PINK</option>
+                <option value="yellow">YELLOW</option>
+                <option value="lightblue">LIGHTBLUE</option>
+            </select>       
+        </div>
+
+</body>
+</html>

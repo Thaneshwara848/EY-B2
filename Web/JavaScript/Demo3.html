@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+            name=document.f1.uname.value;
+            alert("HI "+name)
+        }
+        function xyz(){
+            name=document.f3.uname.value;
+            alert("Hello "+name)
+        }
+    </script>
+</head>
+<body>
+        <div style="text-align: center;">
+
+            <form  name="f1">
+                NAME :<input type="text" id="uname">
+                <input type="submit" value="CLICK" onclick="abc()">
+            </form>
+
+            <form  name="f3">
+                NAME :<input type="text" id="uname">
+                <input type="submit" value="CLICK" onclick="xyz()">
+            </form>
+            
+        </div>
+
+</body>
+</html>

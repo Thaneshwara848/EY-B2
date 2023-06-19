@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+            s1= parseInt( document.f1.s1.value);
+            s2= parseInt( document.f1.s2.value ) ;
+            s3= parseInt( document.f1.s3.value);
+            s4= parseInt( document.f1.s4.value ) ;
+            s5= parseInt( document.f1.s5.value);
+            s6= parseInt( document.f1.s6.value ) ;
+            total= s1+s2+s3+s4+s4+s6;
+            document.f1.result.value=total;
+            percentage=total/6;
+            document.f1.perc.value=percentage
+            if(percentage>=85)
+            {     
+                 document.f1.gread.value="Rank";
+            }
+            else if(percentage>=60 && percentage <=50){
+                document.f1.gread.value="First Class ";
+            }
+            else if(percentage>=35 && percentage <=50){
+                document.f1.gread.value="Second class ";
+            }
+            else{
+                document.f1.gread.value="FAIL";
+            }
+        }
+    </script>
+</head>
+<body>
+        <div style="text-align: center;">
+            <form  name="f1">
+               SUB 1 :<input type="text" id="s1"> <br>
+               SUB 2 :<input type="text" id="s2"> <br>
+               SUB 3 :<input type="text" id="s3"> <br>
+               SUB 4 :<input type="text" id="s4"> <br>
+               SUB 5 :<input type="text" id="s5"> <br>
+               SUB 16 :<input type="text" id="s6"> <br>
+                Result :<input type="text" id="result"><br><br>
+                GREAD :<input type="text" id="gread"><br><br>
+                Percentage :<input type="text" id="perc"><br><br>
+                <input type="button" value="ADD" onclick="abc()">
+            </form>        
+        </div>
+</body>
+</html>

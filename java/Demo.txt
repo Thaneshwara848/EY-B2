@@ -1,0 +1,128 @@
+15 days
+
+
+1) Regualer Attedence : 
+		15 days 
+2) Responce in the class:
+
+3) On time task submission:
+		
+4) feel free to ask the doubts (any kind of technical or non technical )
+
+
+https://www.surveymonkey.com/r/HKZW2SN
+
+=====================================================================================
+
+'
+JDK: https://download.oracle.com/java/17/archive/jdk-17.0.7_windows-x64_bin.msi (sha256 )
+Eclips:    https://www.eclipse.org/downloads/packages/release/2022-06/r
+STS : 	https://spring.io/tools
+NODE JS  :  https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi
+POSTMAN  : https://www.postman.com/downloads/
+VS Code : https://code.visualstudio.com/download
+
+================================================================
+OOps:
+		class 
+		object 
+
+		1) Inheritance :aqurie the property from parent to child 
+					parent ----------child 
+					super------------sub 
+					base------------derivred 
+					super : this
+			Single 
+			multy level 
+			hirirchy 
+
+		2 ) Polymorphism : 
+				same  name but muiltiple behivor 
+				draw : 
+						circle 
+						rectangle 
+						square 
+			COmple
+					overloding 
+							constructor over loding 
+							method over loding 
+			run 
+					overriding :
+							constructo over riding : no 
+							method over riding 
+		3 ) Abstraction : 
+					hide the implementation 
+						2 ways : 
+							abstract class : 1-100% 
+							interface : 100 % 
+		4) Encupulation : 
+					hide the data members into single class 
+					by making all variable as private 
+					make the method as Setter and getter method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pre Assisment Test 
+
+
+
+
+
+
+
+
+
+
+
+

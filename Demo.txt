@@ -87,6 +87,109 @@ OOps:
 
 
 		 
+	JAVA 					JavaScript ?
+
+	prog 					Scripting 
+
+	comiple 				comipler ? no 
+		run 					only run 
+
+
+	Strcit 
+	"",''; 					not manadtroy 
+
+
+	slow 					fast
+
+
+JavaScript :
+	js 
+
+	Angular.JS
+	ReactJS
+	node SJ
+	ExpressJs
+	VewJs
+	BCKBON js 
+	Venilla JS 
+	js
+
+				ECMA 5
+Java Script ?				
+	statamet :if , else, swithc 
+	looping : for, whil , do ewhile 
+	jump , brek m continut 
+
+	Array 
+	number 
+	
+	Events : 
+		onclick 
+		on dbl click 
+		onmouse over 
+		onmouse out 
+		onfoucs 
+		onblur
+		onselct 
+		onchecge 
+		ondrga 
+		ondrop 
+		onsubmit 
+
+	API 
+		DOM API (Document Object model )
+	getElementById('bodytag')
+	getElementByName('bodytag')
+	getElementByClassName('bodytag')
+	getElementBytagName('bodytag')
+
+
+	BOM : 
+		alert
+		confirm 
+		prompt 
+		close 
+		open
+		
+
+
+JS 
+TY 
+	Angualr ....!
+				NODE JS 
+
+Component 
+Routing 
+
+Data Binding
+		event 
+		property 
+		interpolation 
+Directive 
+
+	Strutural : 
+		ngIf 
+		ngFor 
+		ngSwitch
+	Attrubute 
+		ngClass 
+		ngStyle 
+
+
+PIPE 
+Forms 
+
+life cycles
+	onInit : first
+	OnDestroy : at the end :
+					closing the connection
+						  
+services
+http:
+		Get 
+		post 
+		put 
+		delete
 
 
 
@@ -107,22 +210,4 @@ OOps:
 
 
 
-
-
-
-
-
-
-Pre Assisment Test 
-
-
-
-
-
-
-
-
-
-
-
-
+				

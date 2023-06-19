@@ -1,0 +1,42 @@
+<div style="text-align: center;">
+    <h1> Please Fill the deatils </h1>   
+    <input type="text" #firstname><br>   
+    <input type="text" #lastname><br>
+    <input type="submit" (click)="abc(firstname.value,lastname.value)">
+</div>
+<div style="text-align: center;">
+
+    Hi My name is :{{myname}}<br>
+    <input type="submit" [disabled]="condition">
+    <img [src]="myimg" width="20%">
+</div>
+<div style="text-align: center;">
+    <br>
+   Principle :  <input type="text" #p><br>  
+   Time :  <input type="text" #t><br>
+   Type of Loan :
+   <select (change)="rointrest($event)">
+    <option>Loan</option>
+    <option value="car">CAR</option>
+    <option value="home">HOME</option>
+    <option value="edu">EDU</option>
+    <option value="personal">personal</option>
+   </select>
+   <br>
+   ROI :   <input type="text" #roi value={{roint}} disabled><br>
+
+   TOTAL  : <input type="text" value={{total}}><br>
+
+   EMI :<input type="text" value={{emi}}><br>
+
+   Total :{{total}}<br>
+   EMI :{{emi}}<br>
+
+   <input type="submit" (click)="xyz(p.value,t.value,roi.value)">
+</div>
+<!-- 
+    Data Binding 
+    ()   Event Binding 
+    {{}} interpolation
+    [] property bindung 
+-->

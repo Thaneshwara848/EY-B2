@@ -1,0 +1,16 @@
+<p>reactivdriven works!</p>
+<div style="text-align: center;">
+
+    <form [formGroup]="student">
+        <h3>
+            FIRST NAME :  <input type="text"    formControlName="firstname" ><br>
+            LAST NAME :   <input type="text"     formControlName="lastname"><br>
+            AGE :  <input type="text"            formControlName="age" ><br>
+
+
+            <input type="submit" [disabled]="student.invalid" class="btn btn-success">
+
+            <input type="reset" value="Reset">
+        </h3>
+    </form>
+</div>
