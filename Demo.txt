@@ -198,6 +198,38 @@ http:
 
 
 
+			java project : 
+			Web Dynimic project : 
+						web.xml
+								jar :
+									jdbc jar 
+									servlet jar 
+									jsp jar 
+							we are adding manully 
+
+			maven Project : 
+					pom.xml
+							maven reposetoty ....!
+							hibarent jar 
+							mysql jar c
+
+
+
+
+
+
+		Student :
+				sid 
+				sname 
+				sage 
+				marks 
+				
+
+
+
+
+ProdServ 
+
 
 
 

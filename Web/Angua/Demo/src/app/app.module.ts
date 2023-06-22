@@ -18,6 +18,12 @@ import { FormsComponent } from './forms/forms.component';
 import { FormsdemoComponent } from './formsdemo/formsdemo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReactivedrivenfomrComponent } from './reactivedrivenfomr/reactivedrivenfomr.component';
+import { ServdemoComponent } from './servdemo/servdemo.component';
+import { A1Component } from './a1/a1.component';
+import { A2Component } from './a2/a2.component';
+import { A3Component } from './a3/a3.component';
+import { ProductComponent } from './product/product.component';
+import {  HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -35,13 +41,19 @@ import { ReactivedrivenfomrComponent } from './reactivedrivenfomr/reactivedriven
     CubePipe,
     FormsComponent,
     FormsdemoComponent,
-    ReactivedrivenfomrComponent
+    ReactivedrivenfomrComponent,
+    ServdemoComponent,
+    A1Component,
+    A2Component,
+    A3Component,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

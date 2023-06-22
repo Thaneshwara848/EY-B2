@@ -1,0 +1,19 @@
+<p>product works!</p>
+
+<table class="table table-hover">
+    <thead>
+        <th>ID</th>
+        <th>PRODUCT NAME </th>
+        <th>Prodcet Price </th>
+        <th> prouct Description </th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let prod of myproducts">
+            <td>{{prod.id}}</td>
+            <td>{{prod.name}}</td>
+            <td>{{prod.price}}</td>
+            <td>{{prod.desc}}</td>
+        </tr>
+
+    </tbody>
+</table>

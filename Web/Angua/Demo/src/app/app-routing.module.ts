@@ -10,13 +10,21 @@ import { BindingComponent } from './binding/binding.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { FormsComponent } from './forms/forms.component';
 import { FormsdemoComponent } from './formsdemo/formsdemo.component';
+import { ServdemoComponent } from './servdemo/servdemo.component';
+import { ProductComponent } from './product/product.component';
 
 const routes: Routes = [
+  {
+    path:'prod',component:ProductComponent
+  },
   {
     path:'home',component:HomeComponent
   },
   {
     path:'galary',component:GalaryComponent
+  },
+  {
+    path:'serv',component:ServdemoComponent
   },
   {
     path:'forms',component:FormsdemoComponent
